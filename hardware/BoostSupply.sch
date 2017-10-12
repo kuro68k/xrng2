@@ -1,0 +1,245 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kuro
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L L?
+U 1 1 59D35A58
+P 3250 2500
+F 0 "L?" V 3450 2300 50  0000 C CNN
+F 1 "10u" V 3450 2650 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE29_SMD1008" H 3250 2500 50  0001 C CNN
+F 3 "" H 3250 2500 50  0001 C CNN
+F 4 "74479887310" V 3350 2500 50  0000 C CNN "BOM_PartNo"
+	1    3250 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L D_Schottky_ALT D?
+U 1 1 59D35A5F
+P 4250 2500
+F 0 "D?" H 4500 2700 50  0000 R CNN
+F 1 "1A 20V" H 4000 2700 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 4250 2500 50  0001 C CNN
+F 3 "" H 4250 2500 50  0001 C CNN
+F 4 "MBR1020VL" H 4250 2600 50  0000 C CNN "BOM_PartNo"
+	1    4250 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59D35A6D
+P 4250 3300
+F 0 "C?" V 4500 3300 50  0000 C CNN
+F 1 "220p" V 4400 3300 50  0000 C CNN
+F 2 "" H 4288 3150 50  0001 C CNN
+F 3 "" H 4250 3300 50  0001 C CNN
+	1    4250 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VBUS #PWR?
+U 1 1 59D35A74
+P 1800 2450
+F 0 "#PWR?" H 1800 2300 50  0001 C CNN
+F 1 "VBUS" H 1800 2600 50  0000 C CNN
+F 2 "" H 1800 2450 50  0001 C CNN
+F 3 "" H 1800 2450 50  0001 C CNN
+	1    1800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59D35A7A
+P 1800 3850
+F 0 "#PWR?" H 1800 3600 50  0001 C CNN
+F 1 "GND" H 1800 3700 50  0000 C CNN
+F 2 "" H 1800 3850 50  0001 C CNN
+F 3 "" H 1800 3850 50  0001 C CNN
+	1    1800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2731 U?
+U 1 1 59D35A9A
+P 3250 3000
+F 0 "U?" H 3000 3350 50  0000 C CNN
+F 1 "LM2731" H 3400 3350 50  0000 C CNN
+F 2 "" H 3250 3000 100 0000 C CNN
+F 3 "" H 3250 3000 100 0000 C CNN
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D35BA2
+P 2250 2750
+F 0 "R?" H 2300 2800 50  0000 L CNN
+F 1 "51.1k" H 2300 2700 50  0000 L CNN
+F 2 "" V 2180 2750 50  0001 C CNN
+F 3 "" H 2250 2750 50  0001 C CNN
+	1    2250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3000 2250 3000
+Wire Wire Line
+	2250 3000 2250 2900
+Wire Wire Line
+	1800 2450 1800 2800
+Wire Wire Line
+	1800 2500 3100 2500
+Wire Wire Line
+	2250 2500 2250 2600
+Wire Wire Line
+	2650 2500 2650 2800
+Wire Wire Line
+	2650 2800 2750 2800
+Connection ~ 2250 2500
+Wire Wire Line
+	2750 3200 2650 3200
+Wire Wire Line
+	2650 3200 2650 3800
+Connection ~ 1800 2500
+Wire Wire Line
+	3750 2800 3850 2800
+Wire Wire Line
+	3850 2800 3850 2500
+Wire Wire Line
+	3400 2500 4100 2500
+Connection ~ 2650 2500
+$Comp
+L R R?
+U 1 1 59D36736
+P 3900 3550
+F 0 "R?" H 3950 3600 50  0000 L CNN
+F 1 "13.3k" H 3950 3500 50  0000 L CNN
+F 2 "" V 3830 3550 50  0001 C CNN
+F 3 "" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D36AC2
+P 4250 2900
+F 0 "R?" V 4450 2900 50  0000 C CNN
+F 1 "130k" V 4350 2900 50  0000 C CNN
+F 2 "" V 4180 2900 50  0001 C CNN
+F 3 "" H 4250 2900 50  0001 C CNN
+	1    4250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59D37052
+P 4600 3550
+F 0 "C?" H 4700 3600 50  0000 L CNN
+F 1 "4.7u" H 4700 3500 50  0000 L CNN
+F 2 "" H 4638 3400 50  0001 C CNN
+F 3 "" H 4600 3550 50  0001 C CNN
+	1    4600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3200 3900 3200
+Wire Wire Line
+	3900 2900 3900 3400
+Wire Wire Line
+	4100 2900 3900 2900
+Connection ~ 3900 3200
+Wire Wire Line
+	3900 3300 4100 3300
+Connection ~ 3900 3300
+Wire Wire Line
+	4400 2900 4600 2900
+Wire Wire Line
+	4600 2500 4600 3400
+Wire Wire Line
+	4400 3300 4600 3300
+Connection ~ 4600 3300
+Connection ~ 3850 2500
+Wire Wire Line
+	4400 2500 4800 2500
+Connection ~ 4600 2900
+Wire Wire Line
+	3900 3800 3900 3700
+Wire Wire Line
+	1800 3800 4600 3800
+Wire Wire Line
+	1800 3100 1800 3850
+Connection ~ 2650 3800
+Connection ~ 1800 3800
+Wire Wire Line
+	4600 3800 4600 3700
+Connection ~ 3900 3800
+$Comp
+L C C?
+U 1 1 59D377B2
+P 1800 2950
+F 0 "C?" H 1900 3000 50  0000 L CNN
+F 1 "2.2u" H 1900 2900 50  0000 L CNN
+F 2 "" H 1838 2800 50  0001 C CNN
+F 3 "" H 1800 2950 50  0001 C CNN
+	1    1800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPP #PWR?
+U 1 1 59D379FA
+P 4800 2450
+F 0 "#PWR?" H 4800 2300 50  0001 C CNN
+F 1 "VPP" H 4800 2600 50  0000 C CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2500 4800 2450
+Connection ~ 4600 2500
+$EndSCHEMATC
