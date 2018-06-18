@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\paul.qureshi\Documents\GitHub\xrng2\hardware\xrng2.sch)
-    (date "18/06/2018 11:42:48")
+    (date "18/06/2018 15:11:25")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -283,7 +283,7 @@
       (tstamp 59D36AC2))
     (comp (ref C203)
       (value 4.7u)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint Capacitors_SMD:C_0805_HandSoldering)
       (libsource (lib device) (part C))
       (sheetpath (names "/Boost Supply/") (tstamps /59D35624/))
       (tstamp 59D37052))
