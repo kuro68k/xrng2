@@ -180,7 +180,7 @@ U 1 1 59CEAAAB
 P 3250 3950
 F 0 "U103" H 2100 4600 60  0000 C CNN
 F 1 "CD4007" H 2200 4500 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14W_7.5x9.0mm_Pitch1.27mm" H 2450 3550 60  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2450 3550 60  0001 C CNN
 F 3 "" H 2450 3550 60  0001 C CNN
 	1    3250 3950
 	1    0    0    -1  
@@ -214,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4700 2900 4600
 Text Label 2900 4700 0    60   ~ 0
-VA1
+VB1
 Wire Wire Line
 	3550 4600 3550 4700
 Wire Wire Line
@@ -278,15 +278,15 @@ Wire Wire Line
 Wire Wire Line
 	3250 3250 3250 3300
 Text Label 3750 4700 0    60   ~ 0
-VA2
+VB2
 Text Label 2800 3200 0    60   ~ 0
-VA1
+VB1
 Wire Wire Line
 	2700 3300 2700 3200
 Wire Wire Line
 	2700 3200 2800 3200
 Text Label 3550 3200 0    60   ~ 0
-VA2
+VB2
 Wire Wire Line
 	3450 3300 3450 3200
 Wire Wire Line
