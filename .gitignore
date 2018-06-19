@@ -4,6 +4,7 @@
 *.dat
 *.bak
 hardware/plot/*
+_autosave-*
 
 # User-specific files
 *.suo
