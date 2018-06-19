@@ -3,6 +3,7 @@
 
 *.dat
 *.bak
+hardware/plot/*
 
 # User-specific files
 *.suo
