@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 39.924999 59.924999 110.075001 120.075001)
     (thickness 1.6)
-    (drawings 288)
+    (drawings 289)
     (tracks 548)
     (zones 0)
     (modules 74)
@@ -3038,6 +3038,9 @@
       (net 2 GND))
   )
 
+  (gr_text "xrng2 eval\n06/2018\nkuro68k" (at 92 112) (layer Eco1.User)
+    (effects (font (size 1.2 1.2) (thickness 0.2)) (justify left))
+  )
   (gr_text 4 (at 101 118) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
