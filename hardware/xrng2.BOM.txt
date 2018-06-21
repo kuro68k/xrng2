@@ -1,5 +1,5 @@
 Title:      
-Date:       21/06/2018 09:14:43
+Date:       21/06/2018 11:50:31
 Source:     xrng2.sch
 Revsision:  
 
@@ -7,10 +7,11 @@ No.  Reference             Value         Footprint                       Precisi
 
 [ Capacitors, 12 values, X7R/X5R, 16V unless otherwise stated ]
 ----------------------------------------------------------------------------------
-9    C101, C102, C103      100n          0603                            
+10   C101, C102, C103      100n          0603                            
      C104, C105, C106
-     C108, C111, C305
-1    C107                  1n            0603                            
+     C108, C111, C116
+     C305
+2    C107, C117            1n            0603                            
 2    C109, C110            18p           0603                            
 5    C112, C204, C205      1u            0603                            
      C206, C207
@@ -23,15 +24,10 @@ No.  Reference             Value         Footprint                       Precisi
 3    C301, C302, C303      10n           0603                            
 1    C304                  470n          0603                            
 
-[ Diodes, 3 values ]
+[ Diodes, 2 values ]
 ----------------------------------------------------------------------------------
-2    D101, D102            D_ALT         D_SOD-523                       
 1    D201                  1A 20V        SOD-123                         
 3    D202, D203, D204      D             D_SOD-523                       
-
-[ H, 1 value ]
-----------------------------------------------------------------------------------
-3    H1, H2, H3            MOUNT         MountingHole_3.2mm_M3           
 
 [ Connectors, 6 values ]
 ----------------------------------------------------------------------------------
@@ -64,11 +60,12 @@ No.  Reference             Value         Footprint                       Precisi
 1    R307                  4.7k          0603                            
 1    R308                  100k          0603                            
 
-[ Integrated Circuits, 5 values ]
+[ Integrated Circuits, 6 values ]
 ----------------------------------------------------------------------------------
 2    U101, U103            CD4007        SOIC-14_3.9x8.7mm_Pitch1.27mm   
 1    U102                  XMEGA64A3U-A  TQFP-64_14x14mm_Pitch0.8mm      
 1    U104                  MCP1700       SOT-23                          
+1    U105                  SN74LVC1G86   SOT-23                          
 1    U201                  LM2731        SOT-23                          
 2    U301, U302            TL082         SOIC-8_3.9x4.9mm_Pitch1.27mm    
 

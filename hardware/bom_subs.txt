@@ -33,5 +33,6 @@ QFN-64						QFN-64
 Measurement_Point			no part
 SMD_pads					no part
 SMD-pad						no part
+MountingHole				no part
 
 QC6CB_7A_ABM7				QC6CB/7A/ABM7 crystals
