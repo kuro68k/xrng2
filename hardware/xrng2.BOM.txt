@@ -1,11 +1,11 @@
 Title:      
-Date:       21/06/2018 11:50:31
+Date:       21/06/2018 14:02:57
 Source:     xrng2.sch
 Revsision:  
 
 No.  Reference             Value         Footprint                       Precision
 
-[ Capacitors, 12 values, X7R/X5R, 16V unless otherwise stated ]
+[ Capacitors, 11 values, X7R/X5R, 16V unless otherwise stated ]
 ----------------------------------------------------------------------------------
 10   C101, C102, C103      100n          0603                            
      C104, C105, C106
@@ -15,8 +15,7 @@ No.  Reference             Value         Footprint                       Precisi
 2    C109, C110            18p           0603                            
 5    C112, C204, C205      1u            0603                            
      C206, C207
-1    C113                  100u          0603                            
-1    C114                  10u           0603                            
+2    C113, C114            10u           0603                            
 1    C115                  100u          0805                            
 1    C201                  2.2u          0603                            
 1    C202                  220p          0603                            

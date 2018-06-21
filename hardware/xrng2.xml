@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/paul.qureshi/Documents/GitHub/xrng2/hardware/xrng2.sch</source>
-    <date>21/06/2018 11:50:31</date>
+    <date>21/06/2018 14:02:57</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -137,7 +137,7 @@
       <tstamp>59D48F31</tstamp>
     </comp>
     <comp ref="C113">
-      <value>100u</value>
+      <value>10u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
