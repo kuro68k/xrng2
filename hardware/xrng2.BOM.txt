@@ -1,5 +1,5 @@
 Title:      
-Date:       21/06/2018 14:02:57
+Date:       21/06/2018 14:41:56
 Source:     xrng2.sch
 Revsision:  
 
@@ -50,8 +50,8 @@ No.  Reference             Value         Footprint                       Precisi
 3    R101, R102, R303      10k           0603                            
 2    R103, R104            2k2           0603                            
 1    R201                  51.1k         0603                            
-1    R202                  130k          0603                            
-1    R203                  13.3k         0603                            
+1    R202                  162k          0603                            
+1    R203                  14k           0603                            
 1    R204                  240           0603                            
 1    R301                  150k          0603                            
 4    R302, R304, R305      1M            0603                            
